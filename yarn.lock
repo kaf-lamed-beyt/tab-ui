@@ -1706,6 +1706,11 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-icons@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.9.0.tgz#ba44f436a053393adb1bdcafbc5c158b7b70d2a3"
+  integrity sha512-ijUnFr//ycebOqujtqtV9PFS7JjhWg0QU6ykURVHuL4cbofvRCf3f6GMn9+fBktEFQOIVZnuAYLZdiyadRQRFg==
+
 react-tab-state@^1.0.1-alpha.2:
   version "1.0.1-alpha.2"
   resolved "https://registry.yarnpkg.com/react-tab-state/-/react-tab-state-1.0.1-alpha.2.tgz#ad31b2c4d25ae5d102a90df68af057e58d252943"

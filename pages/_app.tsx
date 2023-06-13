@@ -1,11 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Roboto } from "next/font/google";
-
-const roboto = Roboto({
-  subsets: ["latin"],
-  weight: ["400", "500", "700", "900"],
-});
+import { fira_code, roboto } from "../fonts";
 
 export default function App({ Component, pageProps }) {
   return (

@@ -1,17 +1,11 @@
 import React from "react";
 
-const Component = ({ text }) => {
+const Component = ({ text, secondary }) => {
   return (
     <div>
       <h1 className="title">{text}</h1>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quisquam
-        vitae voluptate accusamus aliquid veniam ullam, suscipit nisi harum modi
-        officiis eveniet atque, temporibus non? Quasi obcaecati iure totam.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-        voluptatibus corrupti, ut sapiente maiores facilis. doloremque!
-      </p>
+      <p>{secondary}</p>
 
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ad
@@ -26,14 +20,26 @@ const Component = ({ text }) => {
 export const data = [
   {
     name: "first tab",
-    component: <Component text="Component One" />,
+    component: (
+      <Component text="Ayy! your first click." secondary="This would be fun!" />
+    ),
   },
   {
     name: "second tab",
-    component: <Component text="Component Two" />,
+    component: (
+      <Component
+        text="Close this browser tab."
+        secondary="But, before you do that, try copying the URL - it holds the state of the tab you're on, you can use it anytime to return back to this tab without clicking on it."
+      />
+    ),
   },
   {
     name: "third tab",
-    component: <Component text="Component Three" />,
+    component: (
+      <Component
+        text="Welcome back! Now, try hard-reload"
+        secondary="The state should still be preserved. Normally, the active tab would've returned to the first index."
+      />
+    ),
   },
 ];
