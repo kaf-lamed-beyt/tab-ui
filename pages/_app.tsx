@@ -8,10 +8,10 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <MetaData
-          url="react-tab.netlify.app"
+          url="reaact-tab.netlify.app"
           pageTitle="react-tab"
           description="state-aware tab components in react"
-          previewImage="https://react-tab.netlify.app/preview.png"
+          previewImage="https://reaact-tab.netlify.app/preview.png"
         />
       </Head>
       <main className={roboto.className}>
